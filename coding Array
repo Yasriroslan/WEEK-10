@@ -1,0 +1,25 @@
+package selfprogramming1;
+import java.util.Scanner;
+public class array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner (System.in);
+		int num1,num2,num3,num4,num5,num6,num7;
+		int sum;
+		
+		System.out.println("Please enter 7 number: ");
+		num1=scan.nextInt();
+		num2=scan.nextInt();
+		num3=scan.nextInt();
+		num4=scan.nextInt();
+		num5=scan.nextInt();
+		num6=scan.nextInt();
+		num7=scan.nextInt();
+	
+		sum = num1 +num2 +num3 +num4+num5+num6+num7;
+		System.out.println("The sum is : " + sum);
+		System.out.println("The number is : " +  num1 + " " + num2 + " " + num3 + " " + num4 + " " + num5 +" " + num6+ " "+num7);
+	}
+
+}
