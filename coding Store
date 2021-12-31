@@ -1,0 +1,15 @@
+package selfprogramming1;
+
+public class store {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int nom[] = new int[10];
+		
+		nom[1] = 5;
+		nom[2]=12;
+		
+		System.out.println(nom[2]);
+	}
+
+}
