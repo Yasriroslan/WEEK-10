@@ -1,0 +1,31 @@
+package selfprogramming1;
+import java.util.ArrayList;
+public class shop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<ArrayList<String>> groceryList = new ArrayList<ArrayList<String>>();
+		
+		ArrayList<String> kedaicake = new ArrayList<String>();
+		kedaicake.add("egg crepe");
+		kedaicake.add("egg tart");
+		kedaicake.add("donuts");
+		
+		ArrayList<String> barangkedai = new ArrayList<String>();
+		barangkedai.add("cili");
+		barangkedai.add("timun");
+		barangkedai.add("bawang");
+		
+		ArrayList<String> kedaiair = new ArrayList<String>();
+		kedaiair.add("teh");
+		kedaiair.add("kopi");
+		
+		groceryList.add(kedaicake);
+		groceryList.add(barangkedai);
+		groceryList.add(kedaiair);
+		
+		System.out.println(kedaiair.get(0));
+		System.out.println(kedaicake);
+	}
+
+}
